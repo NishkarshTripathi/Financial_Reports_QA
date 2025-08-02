@@ -11,6 +11,8 @@ from langchain.chains import RetrievalQA
 # Load the API key from .env file
 load_dotenv()
 
+# Uncomment the code below to create a new vector database
+
 '''
 # Load the document (replace with your file)
 file_path = "TCS_AnnualReport_2023-2024.pdf"
