@@ -30,8 +30,8 @@ This project serves as a practical, end-to-end demonstration of a RAG pipeline, 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/Financial_Reports_Q&A.git](https://github.com/your-username/Financial_Report_Q-A.git)
-    cd Financial_Reports_Q&A
+    git clone [https://github.com/your-username/Financial_Reports_QA.git](https://github.com/your-username/Financial_Report_QA.git)
+    cd Financial_Reports_QA
     ```
 
 2.  **Create a virtual environment:**
