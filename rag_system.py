@@ -14,7 +14,7 @@ load_dotenv()
 # Uncomment the code below to create a new vector database
 
 '''
-# Load the document (replace with your file)
+# Load the document
 file_path = "TCS_AnnualReport_2023-2024.pdf"
 if not os.path.exists(file_path):
     raise FileNotFoundError(f"The file {file_path} was not found. Please place your document in the project directory.")
@@ -45,7 +45,7 @@ print("Embeddings successfully created and saved.")
 
 # Load the vector store from disk
 print("Loading vector store from disk...")
-# The 'db' folder must exist from the previous step
+# The 'db' folder must exist
 if not os.path.exists("db"):
     raise FileNotFoundError("The 'db' directory was not found. Please run the previous step to create it.")
 
